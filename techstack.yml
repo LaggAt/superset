@@ -1,0 +1,3594 @@
+repo_name: LaggAt/superset
+report_id: 1e487936836a1d37fb30d16b01ff98a5
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-17T13:56:00+00:00'
+requested_by: qleroy
+provider: github
+branch: master
+detected_tools_count: 264
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/LaggAt/superset
+  detection_source: Repo Metadata
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  version: 4.7.7
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/plugins/plugin-chart-handlebars/package.json
+  last_updated_by: Nicolas Charpentier
+  last_updated_on: 2023-04-25 15:18:27.000000000 Z
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/scripts/databases/hive/docker-compose.yml
+  detection_source: scripts/databases/hive/docker-compose.yml
+  last_updated_by: Bogdan
+  last_updated_on: 2020-08-27 16:49:18.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/LaggAt/superset
+  detection_source: Repo Metadata
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  version: 3.1.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/base.txt
+  detection_source: RELEASING/requirements.txt
+  last_updated_by: Ville Brofeldt
+  last_updated_on: 2022-05-27 13:09:12.000000000 Z
+- name: Mako
+  description: Template library written in Python
+  website_url: https://github.com/zzzeek/mako
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3583/default_43e3ee00dcc48a40f6fcba33551e4f5a99a10537.png
+  detection_source_url: https://github.com/LaggAt/superset
+  detection_source: Repo Metadata
+- name: Mustache
+  description: Logic-less templates
+  website_url: http://mustache.github.io/
+  version: 2.3.2
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1142/197655.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Nicolas Charpentier
+  last_updated_on: 2023-04-25 15:18:27.000000000 Z
+- name: Pug
+  description: Robust, elegant, feature rich template engine for nodejs
+  website_url: https://pugjs.org
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1175/pug.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-websocket/utils/client-ws-app/package.json
+  detection_source: superset-websocket/utils/client-ws-app/package.json
+  last_updated_by: Rob DiCiuccio
+  last_updated_on: 2021-04-08 18:12:03.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/LaggAt/superset
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: Maxime Beauchemin
+  last_updated_on: 2015-09-05 16:23:46.000000000 Z
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/LaggAt/superset
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/LaggAt/superset
+  detection_source: Repo Metadata
+- name: Ant Design
+  description: A set of high-quality React components
+  website_url: https://ant.design
+  version: 4.19.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6112/12101536.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Hugh A. Miles II
+  last_updated_on: 2022-02-02 21:02:51.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-29 22:17:20.000000000 Z
+- name: D3.js
+  description: A JavaScript visualization library for HTML and SVG
+  website_url: http://d3js.org/
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/1491/HgKolWB5_400x400.jpg
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/plugins/legacy-plugin-chart-chord/package.json
+  detection_source: superset-frontend/plugins/legacy-plugin-chart-chord/package.json
+  last_updated_by: Krist Wongsuphasawat
+  last_updated_on: 2020-04-15 18:52:24.000000000 Z
+- name: ECharts
+  description: A free, powerful charting and visualization library
+  website_url: https://echarts.apache.org/en/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/4230/aSzYQa43_400x400.jpg
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/plugins/plugin-chart-echarts/package.json
+  detection_source: superset-frontend/plugins/plugin-chart-echarts/package.json
+  last_updated_by: Nicolas Charpentier
+  last_updated_on: 2023-04-25 15:18:27.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-websocket/utils/client-ws-app/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-16 20:58:34.000000000 Z
+- name: Flask
+  description: A microframework for Python based on Werkzeug, Jinja 2 and good intentions
+  website_url: http://flask.pocoo.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1001/default_6d109315b60108628b7cd3e159b84645c31ef0e2.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: Daniel Vaz Gaspar
+  last_updated_on: 2023-11-20 19:02:30.000000000 Z
+- name: Less
+  description: The dynamic stylesheet language
+  website_url: http://lesscss.org/
+  version: 4.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1170/default_957cbc0168b4d37265e264469c888f776e57f42c.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Phillip Kelley-Dotson
+  last_updated_on: 2020-09-12 05:59:12.000000000 Z
+- name: Matplotlib
+  description: A plotting library for the Python programming language
+  website_url: http://matplotlib.org
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/testing.txt
+  detection_source: requirements/testing.txt
+  last_updated_by: John Bodley
+  last_updated_on: 2023-07-05 19:33:52.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Aleksey Karpov
+  last_updated_on: 2023-09-25 20:08:21.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  version: 4.23.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/testing.txt
+  detection_source: requirements/testing.txt
+  last_updated_by: EugeneTorap
+  last_updated_on: 2023-05-10 10:19:25.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-28 21:42:35.000000000 Z
+- name: React Hot Loader
+  description: Tweak React components in real time
+  website_url: http://gaearon.github.io/react-hot-loader/
+  version: 4.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.1.2
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-29 22:16:30.000000000 Z
+- name: Storybook
+  description: Build bulletproof UI components faster
+  website_url: https://storybook.js.org/
+  version: 6.5.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9240/sOct-Txm_400x400.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-30 23:26:49.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Maxime Beauchemin
+  last_updated_on: 2024-01-30 16:37:57.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-11-23 11:47:37.000000000 Z
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-29 22:16:30.000000000 Z
+- name: reselect
+  description: Selector library for Redux
+  website_url: https://github.com/reactjs/reselect
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/7757/13142323.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/packages/superset-ui-core/package.json
+  detection_source: superset-frontend/packages/superset-ui-core/package.json
+  last_updated_by: Jesse Yang
+  last_updated_on: 2020-09-03 19:02:23.000000000 Z
+- name: Celery
+  description: Distributed task queue
+  website_url: http://www.celeryproject.org/
+  version: 5.3.6
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1075/celery.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/base.txt
+  detection_source: setup.py
+  last_updated_by: Musa Hamada
+  last_updated_on: 2024-01-16 17:59:49.000000000 Z
+- name: Google BigQuery
+  description: Analyze terabytes of data in seconds
+  website_url: https://cloud.google.com/bigquery/what-is-bigquery
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Big Data as a Service
+  image_url: https://img.stackshare.io/service/695/BigQuery.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/testing.txt
+  detection_source: requirements/testing.txt
+  last_updated_by: EugeneTorap
+  last_updated_on: 2023-05-10 10:19:25.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/development.txt
+  detection_source: requirements/development.txt
+  last_updated_by: Daniel Vaz Gaspar
+  last_updated_on: 2020-09-16 13:57:41.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  version: 12.1.6
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/helm/superset/Chart.yaml
+  detection_source: docker-compose.yml
+  last_updated_by: Sebastian Liebscher
+  last_updated_on: 2023-07-24 17:09:41.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 4.5.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/base.txt
+  detection_source: docker-compose.yml
+  last_updated_by: Daniel Vaz Gaspar
+  last_updated_on: 2023-01-16 15:45:32.000000000 Z
+- name: ws
+  description: A Node.js WebSocket library
+  website_url: https://github.com/websockets/ws
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-websocket/package.json
+  detection_source: superset-websocket/package.json
+  last_updated_by: Rob DiCiuccio
+  last_updated_on: 2021-04-08 18:12:03.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.12.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: docs/babel.config.js
+  last_updated_by: Hugh A. Miles II
+  last_updated_on: 2022-01-27 22:54:53.000000000 Z
+- name: Browserify
+  description: Browser-side require() the node.js way
+  website_url: http://browserify.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/849/9esmqty2.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: chanyou0311
+  last_updated_on: 2022-03-08 11:27:41.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/.codecov.yml
+  detection_source: ".codecov.yml"
+  last_updated_by: Jesse Yang
+  last_updated_on: 2021-02-25 13:22:34.000000000 Z
+- name: Cypress
+  description: When testing is easy, developers build better things faster and with
+    confidence.
+  website_url: https://www.cypress.io/
+  version: 10.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/cypress-base/package-lock.json
+  detection_source: superset-frontend/cypress-base/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2023-08-24 14:44:35.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/LaggAt/superset
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-embedded-sdk/package.json
+  detection_source: superset-embedded-sdk/package.json
+  last_updated_by: David Aaron Suddjian
+  last_updated_on: 2022-02-03 22:01:45.000000000 Z
+- name: Enzyme
+  description: JavaScript Testing utilities for React, by Airbnb
+  website_url: https://enzymejs.github.io/enzyme/
+  version: 3.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/4488/default_87e6ca3fa146a959af95ccf3df1ec550eb434129.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-30 00:48:13.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/LaggAt/superset
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/.github/workflows/caches.js
+  detection_source: ".github/workflows/caches.js"
+  last_updated_by: Jianchao Yang
+  last_updated_on: 2020-04-14 20:38:09.000000000 Z
+- name: Gunicorn
+  description: A Python WSGI HTTP Server for UNIX
+  website_url: http://gunicorn.org/
+  version: 21.2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1091/gunicorn.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/base.txt
+  detection_source: setup.py
+  last_updated_by: Ville Brofeldt
+  last_updated_on: 2023-09-15 20:14:00.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 27.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-embedded-sdk/package-lock.json
+  detection_source: superset-embedded-sdk/package.json
+  last_updated_by: David Aaron Suddjian
+  last_updated_on: 2022-02-03 22:01:45.000000000 Z
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/helm/superset/Chart.lock
+  detection_source: helm/superset/Chart.lock
+  last_updated_by: Yann Jouanique
+  last_updated_on: 2022-10-27 20:03:21.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Craig Rueda
+  last_updated_on: 2019-12-03 18:37:18.000000000 Z
+- name: Playwright
+  description: Node library to automate Chromium, Firefox and WebKit with a single
+    API (By Microsoft)
+  website_url: https://github.com/microsoft/playwright
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/11955/default_48baa40615243f437bc3b182e62ddfe0290fca4b.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/testing.txt
+  detection_source: requirements/testing.txt
+  last_updated_by: Daniel Vaz Gaspar
+  last_updated_on: 2023-10-31 16:05:18.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-23 02:31:33.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset/translations/requirements.txt
+  detection_source: superset/translations/requirements.txt
+  last_updated_by: bolkedebruin
+  last_updated_on: 2019-01-22 16:21:13.000000000 Z
+- name: Pylint
+  description: Source-code, bug and quality checker for the Python programming language
+  website_url: https://www.pylint.org/
+  version: 2.17.7
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4837/py.jpg
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/development.txt
+  detection_source: requirements/development.txt
+  last_updated_by: EugeneTorap
+  last_updated_on: 2023-10-09 18:51:41.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: Maxime Beauchemin
+  last_updated_on: 2015-09-05 16:23:46.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 15.2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/cypress-base/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2020-09-01 22:32:39.000000000 Z
+- name: StatsD
+  description: Simple daemon for easy stats aggregation
+  website_url: https://github.com/etsy/statsd/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/932/default_b8c7d49298132d46fbef113905bcba1896158113.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/testing.txt
+  detection_source: requirements/testing.txt
+  last_updated_by: EugeneTorap
+  last_updated_on: 2023-05-10 10:19:25.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.90.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-01 22:50:57.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: docs/yarn.lock
+  last_updated_by: Hugh A. Miles II
+  last_updated_on: 2022-01-27 22:54:53.000000000 Z
+- name: Yeoman
+  description: A set of tools for automating development workflow
+  website_url: http://yeoman.io/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Scaffolding Tools
+  image_url: https://img.stackshare.io/service/853/46ea2dd8b1bdd31a8ba61044cb5b6ebe.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/packages/generator-superset/package.json
+  detection_source: superset-frontend/packages/generator-superset/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-14 23:53:02.000000000 Z
+- name: gevent
+  description: Coroutine network library for Python
+  website_url: http://gevent.org
+  version: 22.10.2
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1772/s9Bm2Iyx_400x400.jpg
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/docker.txt
+  detection_source: requirements/docker.txt
+  last_updated_by: Beto Dealmeida
+  last_updated_on: 2023-05-08 19:13:21.000000000 Z
+- name: isort
+  description: A Python utility / library to sort imports
+  website_url: https://pycqa.github.io/isort/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4835/default_0a87fe83d3c6dc2bd452e7bf2428b32269c080d2.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/development.txt
+  detection_source: requirements/development.txt
+  last_updated_by: Beto Dealmeida
+  last_updated_on: 2023-05-08 19:13:21.000000000 Z
+- name: jsdom
+  description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
+    use with node.js
+  website_url: https://github.com/jsdom/jsdom
+  version: 16.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7054/preview.jpeg
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-embedded-sdk/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-11 21:48:46.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-websocket/utils/client-ws-app/package.json
+  detection_source: superset-websocket/utils/client-ws-app/package.json
+  last_updated_by: Rob DiCiuccio
+  last_updated_on: 2021-04-08 18:12:03.000000000 Z
+- name: pre-commit
+  description: A slightly improved pre-commit hook for git
+  website_url: http://jish.github.io/pre-commit/
+  version: 3.3.3
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Git Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/integration.txt
+  detection_source: requirements/integration.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-20 21:17:54.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 7.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/testing.txt
+  detection_source: requirements/testing.txt
+  last_updated_by: EugeneTorap
+  last_updated_on: 2023-05-10 10:19:25.000000000 Z
+- name: Buffer
+  description: The easiest way to schedule tweets, Facebook posts and more
+  website_url: https://bufferapp.com/
+  open_source: false
+  hosted_saas: true
+  category: Support, Sales, and Marketing
+  sub_category: Social Media Tools
+  image_url: https://img.stackshare.io/service/825/hnc3q-7x.jpg
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/package.json
+  detection_source: docs/package.json
+  last_updated_by: Hugh A. Miles II
+  last_updated_on: 2022-02-02 21:02:51.000000000 Z
+- name: Mapbox
+  description: Design and publish beautiful maps
+  website_url: https://www.mapbox.com/
+  open_source: true
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Mapping APIs
+  image_url: https://img.stackshare.io/service/1640/cvosutVr_400x400.jpg
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Stephen Liu
+  last_updated_on: 2022-10-11 06:47:25.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/development.txt
+  detection_source: requirements/development.txt
+  last_updated_by: Ville Brofeldt
+  last_updated_on: 2024-01-10 19:12:01.000000000 Z
+- name: Poli
+  description: An easy-to-use SQL reporting application
+  website_url: https://github.com/shzlw/poli
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/11232/no-img-open-source.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Maxime Beauchemin
+  last_updated_on: 2016-03-18 06:44:58.000000000 Z
+- name: Stream
+  description: Build scalable feeds, activity streams &amp; chat in a few hours instead
+    of months.
+  website_url: https://getstream.io/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Activity Feeds as a Service
+  image_url: https://img.stackshare.io/service/2213/mBSAJI_h_400x400.jpg
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/package.json
+  detection_source: docs/package.json
+  last_updated_by: Hugh A. Miles II
+  last_updated_on: 2022-02-02 21:02:51.000000000 Z
+- name: Brace
+  description: Host static websites from the comfort of Dropbox
+  website_url: http://brace.io/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/730/FmOfEvH3.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/cypress-base/package.json
+  detection_source: superset-frontend/cypress-base/package.json
+  last_updated_by: Geido
+  last_updated_on: 2022-09-12 14:48:36.000000000 Z
+- name: Chromatic
+  website_url: https://www.chromatic.com/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/18784/empty-logo-square.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Eric Briscoe
+  last_updated_on: 2022-08-23 20:16:28.000000000 Z
+- name: IPython
+  description: A command shell for interactive computing in multiple programming languages
+  website_url: http://ipython.org/index.html
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Shells
+  image_url: https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/development.txt
+  detection_source: requirements/development.txt
+  last_updated_by: EugeneTorap
+  last_updated_on: 2023-07-25 00:13:49.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/LaggAt/superset
+  detection_source: Repo Metadata
+- name: Lerna
+  description: A tool for managing JavaScript projects
+  website_url: https://lerna.js.org/
+  version: 6.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: EugeneTorap
+  last_updated_on: 2023-07-11 02:44:35.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-23 19:39:37.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-01 05:01:36.000000000 Z
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  version: 1.23.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/base.txt
+  detection_source: requirements/base.txt
+  last_updated_by: John Bodley
+  last_updated_on: 2020-08-05 02:31:52.000000000 Z
+- name: Prophet
+  description: Tool for producing high quality forecasts for time series data (by
+    Facebook)
+  website_url: https://facebookincubator.github.io/prophet/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Forecasting
+  image_url: https://img.stackshare.io/service/6594/Screen_Shot_2018-01-25_at_4.46.45_AM.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/testing.txt
+  detection_source: requirements/testing.txt
+  last_updated_by: Ville Brofeldt
+  last_updated_on: 2024-01-10 19:12:01.000000000 Z
+- name: PyYAML
+  website_url: http://pyyaml.org/wiki/PyYAML
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3730/no-img-open-source.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/integration.txt
+  detection_source: requirements/integration.txt
+  last_updated_by: John Bodley
+  last_updated_on: 2020-08-05 02:31:52.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/LaggAt/superset
+  detection_source: Repo Metadata
+- name: Underscore
+  description: JavaScript's utility _ belt
+  website_url: http://underscorejs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/1150/underscore-js.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/plugins/legacy-preset-chart-deckgl/package.json
+  detection_source: superset-frontend/plugins/legacy-preset-chart-deckgl/package.json
+  last_updated_by: Kamil Gabryjelski
+  last_updated_on: 2023-08-28 11:56:06.000000000 Z
+- name: Winston
+  description: a multi-transport async logging library for node.js
+  website_url: https://github.com/winstonjs/winston
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6668/9682013.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-websocket/package.json
+  detection_source: superset-websocket/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-10 16:54:41.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.25.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-embedded-sdk/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-13 19:39:52.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/packages/generator-superset/package.json
+  detection_source: superset-frontend/packages/generator-superset/package.json
+  last_updated_by: Stephen Liu
+  last_updated_on: 2022-09-06 09:55:55.000000000 Z
+- name: tox
+  description: We host the world's documentation. Maintained by @ericholscher &amp;
+    @agjhnsn. Not a support channel, please use GitHub.
+  website_url: https://tox.readthedocs.org/en/latest/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4825/OhsWgbsr_normal.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/integration.txt
+  detection_source: requirements/integration.txt
+  last_updated_by: John Bodley
+  last_updated_on: 2020-08-05 02:31:52.000000000 Z
+- name: virtualenv
+  description: Local environment for python
+  website_url: https://virtualenv.pypa.io/en/latest/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3581/no-img-open-source.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/requirements/integration.txt
+  detection_source: requirements/integration.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-29 19:07:21.000000000 Z
+- name: "@babel/cli"
+  description: Babel command line
+  package_url: https://www.npmjs.com/@babel/cli
+  version: 7.16.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15848/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-embedded-sdk/package-lock.json
+  detection_source: superset-embedded-sdk/package.json
+  last_updated_by: David Aaron Suddjian
+  last_updated_on: 2022-02-12 04:29:23.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.12.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-embedded-sdk/package.json
+  last_updated_by: David Aaron Suddjian
+  last_updated_on: 2022-02-12 04:29:23.000000000 Z
+- name: "@babel/node"
+  description: Babel command line
+  package_url: https://www.npmjs.com/@babel/node
+  version: 7.22.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16153/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-31 23:03:40.000000000 Z
+- name: "@babel/plugin-proposal-class-properties"
+  description: This plugin transforms static class properties as well as properties
+    declared with the property initializer syntax
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-class-properties
+  version: 7.16.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15903/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-embedded-sdk/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Elizabeth Thompson
+  last_updated_on: 2024-01-31 23:44:25.000000000 Z
+- name: "@babel/plugin-proposal-optional-chaining"
+  description: Transform optional chaining operators into a series of nil checks
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-optional-chaining
+  version: 7.16.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16306/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-embedded-sdk/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: "@babel/plugin-syntax-dynamic-import"
+  description: Allow parsing of import
+  package_url: https://www.npmjs.com/@babel/plugin-syntax-dynamic-import
+  version: 7.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16080/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: Elizabeth Thompson
+  last_updated_on: 2024-01-31 23:44:25.000000000 Z
+- name: "@babel/plugin-transform-runtime"
+  description: Externalise references to helpers and builtins
+  package_url: https://www.npmjs.com/@babel/plugin-transform-runtime
+  version: 7.21.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15952/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: Elizabeth Thompson
+  last_updated_on: 2024-01-31 23:44:25.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.23.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-embedded-sdk/package.json
+  last_updated_by: Nicolas Charpentier
+  last_updated_on: 2023-04-25 15:18:27.000000000 Z
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: "@babel/preset-typescript"
+  description: Babel preset for TypeScript
+  package_url: https://www.npmjs.com/@babel/preset-typescript
+  version: 7.23.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16084/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-embedded-sdk/package.json
+  last_updated_by: Nicolas Charpentier
+  last_updated_on: 2023-04-25 15:18:27.000000000 Z
+- name: "@babel/register"
+  description: Babel require hook
+  package_url: https://www.npmjs.com/@babel/register
+  version: 7.23.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16014/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-31 23:03:40.000000000 Z
+- name: "@babel/runtime"
+  description: Babel's modular runtime helpers
+  package_url: https://www.npmjs.com/@babel/runtime
+  version: 7.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15934/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/packages/superset-ui-core/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-04-22 20:50:43.000000000 Z
+- name: "@babel/types"
+  description: Babel Types is a Lodash-esque utility library for AST nodes
+  package_url: https://www.npmjs.com/@babel/types
+  version: 7.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16786/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/plugins/plugin-chart-pivot-table/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-31 06:51:37.000000000 Z
+- name: "@emotion/core"
+  description: "&gt; Simple styling in React"
+  package_url: https://www.npmjs.com/@emotion/core
+  version: 10.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16475/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2023-06-01 18:55:51.000000000 Z
+- name: "@emotion/styled"
+  description: Styled API for emotion
+  package_url: https://www.npmjs.com/@emotion/styled
+  version: 10.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Hugh A. Miles II
+  last_updated_on: 2022-02-02 21:02:51.000000000 Z
+- name: "@hot-loader/react-dom"
+  description: The Hot version of React-DOM
+  package_url: https://www.npmjs.com/@hot-loader/react-dom
+  version: 16.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18594/default_ff37252c783e39778181a2b561afd470c5bdef8b.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: "@istanbuljs/nyc-config-typescript"
+  description: Nyc configuration that works with typescript
+  package_url: https://www.npmjs.com/@istanbuljs/nyc-config-typescript
+  version: 1.0.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17448/default_feeb5f9682b10b4223ce6e22e98c891d2c0e3851.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-30 23:26:49.000000000 Z
+- name: "@mdx-js/react"
+  description: React implementation for MDX
+  package_url: https://www.npmjs.com/@mdx-js/react
+  version: 1.6.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17624/default_61a119a7701a0e8224ca0e4dce7ff951cd67972f.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-28 21:42:35.000000000 Z
+- name: "@storybook/addon-actions"
+  description: Action Logger addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-actions
+  version: 6.4.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16126/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: "@storybook/addon-docs"
+  description: Superior documentation for your components
+  package_url: https://www.npmjs.com/@storybook/addon-docs
+  version: 6.5.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17835/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-30 23:26:49.000000000 Z
+- name: "@storybook/addon-knobs"
+  description: Storybook Addon Prop Editor Component
+  package_url: https://www.npmjs.com/@storybook/addon-knobs
+  version: 6.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16279/default_3b7197abc4df3d7fa7c5292f17b2e6fb0cd1c8d4.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-30 23:26:49.000000000 Z
+- name: "@storybook/addon-links"
+  description: Story Links addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-links
+  version: 6.4.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16204/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-30 23:26:49.000000000 Z
+- name: "@storybook/addons"
+  description: Storybook addons store
+  package_url: https://www.npmjs.com/@storybook/addons
+  version: 6.5.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16200/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-30 23:26:49.000000000 Z
+- name: "@storybook/react"
+  description: 'Storybook for React: Develop React Component in isolation with Hot
+    Reloading'
+  package_url: https://www.npmjs.com/@storybook/react
+  version: 6.4.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16042/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: "@svgr/webpack"
+  description: SVGR webpack loader
+  package_url: https://www.npmjs.com/@svgr/webpack
+  version: 6.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16411/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-01 22:50:57.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.11.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-29 22:19:19.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 11.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: "@testing-library/react-hooks"
+  description: Simple and complete React hooks testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react-hooks
+  version: 5.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17877/default_d41d3b5a213e129d6ea411e77eecb13f54b6aea5.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: "@types/classnames"
+  description: TypeScript definitions for classnames
+  package_url: https://www.npmjs.com/@types/classnames
+  version: 2.2.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16431/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-30 21:39:34.000000000 Z
+- name: "@types/enzyme"
+  description: TypeScript definitions for Enzyme
+  package_url: https://www.npmjs.com/@types/enzyme
+  version: 3.10.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16307/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/cypress-base/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-30 21:39:34.000000000 Z
+- name: "@types/enzyme-adapter-react-16"
+  description: TypeScript definitions for enzyme-adapter-react-16
+  package_url: https://www.npmjs.com/@types/enzyme-adapter-react-16
+  version: 1.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16638/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: "@types/fetch-mock"
+  description: TypeScript definitions for fetch-mock
+  package_url: https://www.npmjs.com/@types/fetch-mock
+  version: 7.3.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18733/default_896e971e78d35d9228342aa32100298402d2473b.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/cypress-base/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-01 15:46:03.000000000 Z
+- name: "@types/ioredis"
+  description: TypeScript definitions for ioredis
+  package_url: https://www.npmjs.com/@types/ioredis
+  version: 4.28.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18175/default_0dba38f16e89e401bb4382c2d3f09881aac7fd70.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-websocket/package-lock.json
+  detection_source: superset-websocket/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-01 19:11:48.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 27.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-embedded-sdk/package-lock.json
+  detection_source: superset-embedded-sdk/package.json
+  last_updated_by: David Aaron Suddjian
+  last_updated_on: 2022-03-14 16:32:25.000000000 Z
+- name: "@types/jquery"
+  description: TypeScript definitions for jQuery
+  package_url: https://www.npmjs.com/@types/jquery
+  version: 3.5.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16363/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-30 21:39:34.000000000 Z
+- name: "@types/jsonwebtoken"
+  description: TypeScript definitions for jsonwebtoken
+  package_url: https://www.npmjs.com/@types/jsonwebtoken
+  version: 9.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16959/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-websocket/package-lock.json
+  detection_source: superset-websocket/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-01 19:11:48.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.168
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/cypress-base/package-lock.json
+  detection_source: superset-frontend/packages/superset-ui-core/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-30 21:03:49.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 16.11.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/packages/superset-ui-core/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-30 21:03:49.000000000 Z
+- name: "@types/prop-types"
+  description: TypeScript definitions for prop-types
+  package_url: https://www.npmjs.com/@types/prop-types
+  version: 15.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16673/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/packages/superset-ui-core/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-30 21:03:49.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 17.0.42
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-29 16:12:35.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 16.9.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: "@types/react-redux"
+  description: TypeScript definitions for react-redux
+  package_url: https://www.npmjs.com/@types/react-redux
+  version: 7.1.20
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16687/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: "@types/react-router-dom"
+  description: TypeScript definitions for React Router
+  package_url: https://www.npmjs.com/@types/react-router-dom
+  version: 5.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16557/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: "@types/react-transition-group"
+  description: TypeScript definitions for react-transition-group
+  package_url: https://www.npmjs.com/@types/react-transition-group
+  version: 4.4.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17976/default_ddcb3fb8ca8ccaba871e88d87465cd31ce73df71.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: "@types/sinon"
+  description: TypeScript definitions for Sinon
+  package_url: https://www.npmjs.com/@types/sinon
+  version: 9.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16151/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-30 21:39:34.000000000 Z
+- name: "@types/underscore"
+  description: TypeScript definitions for Underscore
+  package_url: https://www.npmjs.com/@types/underscore
+  version: 1.11.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17484/default_2ae5beb193365eca46e337162957275ebc9c6b3b.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/plugins/legacy-preset-chart-deckgl/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-15 23:26:08.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 9.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-websocket/package-lock.json
+  detection_source: superset-websocket/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-01 19:11:48.000000000 Z
+- name: "@types/ws"
+  description: TypeScript definitions for ws
+  package_url: https://www.npmjs.com/@types/ws
+  version: 8.5.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16711/default_9cd376f2200c8f6c32ebd690bb6c290852dee64d.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-websocket/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-01 19:11:48.000000000 Z
+- name: "@types/yargs"
+  description: TypeScript definitions for yargs
+  package_url: https://www.npmjs.com/@types/yargs
+  version: 17.0.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16404/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-30 21:39:34.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.62.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Elizabeth Thompson
+  last_updated_on: 2024-01-31 23:44:25.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.62.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-30 23:26:49.000000000 Z
+- name: antd
+  description: An enterprise-class UI design language and React components implementation
+  package_url: https://www.npmjs.com/antd
+  version: 4.19.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16201/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Ville Brofeldt
+  last_updated_on: 2022-03-24 13:43:30.000000000 Z
+- name: babel-jest
+  description: Jest plugin to use babel for transformation
+  package_url: https://www.npmjs.com/babel-jest
+  version: 27.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-embedded-sdk/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-31 23:03:40.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 8.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-embedded-sdk/package.json
+  last_updated_by: David Aaron Suddjian
+  last_updated_on: 2022-02-12 04:29:23.000000000 Z
+- name: babel-plugin-dynamic-import-node
+  description: Babel plugin to transpile import
+  package_url: https://www.npmjs.com/babel-plugin-dynamic-import-node
+  version: 2.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16308/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: Elizabeth Thompson
+  last_updated_on: 2024-01-31 23:44:25.000000000 Z
+- name: babel-plugin-lodash
+  description: Modular Lodash builds without the hassle
+  package_url: https://www.npmjs.com/babel-plugin-lodash
+  version: 3.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16379/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Elizabeth Thompson
+  last_updated_on: 2024-01-31 23:44:25.000000000 Z
+- name: brace
+  description: Browserify compatible version of the ace editor
+  package_url: https://www.npmjs.com/brace
+  version: 0.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17373/default_c1932d441699b98abea6098c6f8f65e2acb4f5ed.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/cypress-base/package-lock.json
+  detection_source: superset-frontend/cypress-base/package.json
+  last_updated_by: Geido
+  last_updated_on: 2022-09-12 14:48:36.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/packages/generator-superset/package.json
+  last_updated_by: Stephen Liu
+  last_updated_on: 2022-09-06 09:55:55.000000000 Z
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  version: 2.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: Eric Briscoe
+  last_updated_on: 2022-08-23 20:16:28.000000000 Z
+- name: cookie
+  description: HTTP server cookie parsing and serialization
+  package_url: https://www.npmjs.com/cookie
+  version: 0.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16660/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-websocket/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-28 17:58:34.000000000 Z
+- name: cookie-parser
+  description: Parse HTTP request cookies
+  package_url: https://www.npmjs.com/cookie-parser
+  version: 1.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-websocket/utils/client-ws-app/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-04 22:46:47.000000000 Z
+- name: copy-webpack-plugin
+  description: Copy files &amp;&amp; directories with webpack
+  package_url: https://www.npmjs.com/copy-webpack-plugin
+  version: 11.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: Elizabeth Thompson
+  last_updated_on: 2024-01-31 23:44:25.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 3.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-31 23:03:40.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: EugeneTorap
+  last_updated_on: 2023-07-11 02:44:35.000000000 Z
+- name: csstype
+  description: Strict TypeScript and Flow types for style based on MDN data
+  package_url: https://www.npmjs.com/csstype
+  version: 2.6.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18333/default_cef8b737c55fccc3604e91ce246aef30fc604c73.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/packages/superset-ui-core/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-30 21:03:49.000000000 Z
+- name: d3
+  description: Data-Driven Documents
+  package_url: https://www.npmjs.com/d3
+  version: 3.5.17
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16224/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/plugins/legacy-plugin-chart-chord/package.json
+  last_updated_by: Krist Wongsuphasawat
+  last_updated_on: 2020-04-15 18:52:24.000000000 Z
+- name: d3-array
+  description: Array manipulation, ordering, searching, summarizing, etc
+  package_url: https://www.npmjs.com/d3-array
+  version: 2.12.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17322/default_2f1b682e838d69744876821bf705f0b2974318b1.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/cypress-base/package-lock.json
+  detection_source: superset-frontend/plugins/legacy-plugin-chart-calendar/package.json
+  last_updated_by: Krist Wongsuphasawat
+  last_updated_on: 2020-04-11 05:29:42.000000000 Z
+- name: d3-format
+  description: Format numbers for human consumption
+  package_url: https://www.npmjs.com/d3-format
+  version: 1.4.5
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18327/default_b0d06180669cf53f2469ea77b53b5911d72482d5.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/cypress-base/package-lock.json
+  detection_source: superset-frontend/packages/superset-ui-core/package.json
+  last_updated_by: Jesse Yang
+  last_updated_on: 2020-09-03 19:02:23.000000000 Z
+- name: d3-interpolate
+  description: Interpolate numbers
+  package_url: https://www.npmjs.com/d3-interpolate
+  version: 1.4.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18261/default_e883f2ab27e3b57d1e2e1d1474b09e7351e11b54.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/cypress-base/package-lock.json
+  detection_source: superset-frontend/packages/superset-ui-core/package.json
+  last_updated_by: Jesse Yang
+  last_updated_on: 2020-09-03 19:02:23.000000000 Z
+- name: d3-scale
+  description: Encodings that map abstract data to visual representation
+  package_url: https://www.npmjs.com/d3-scale
+  version: 3.2.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16978/default_7a9e63a9526bf5da91e7a6f9f792b13e3543a875.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/cypress-base/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Lily Kuang
+  last_updated_on: 2023-02-24 20:49:53.000000000 Z
+- name: d3-selection
+  description: 'Data-driven DOM manipulation: select elements and join them to data'
+  package_url: https://www.npmjs.com/d3-selection
+  version: 1.4.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17187/default_fbe883dfc6d978f82179fa11bdf634af1b6751fa.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/plugins/legacy-plugin-chart-calendar/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-31 05:19:50.000000000 Z
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 2.6.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-websocket/utils/client-ws-app/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-05 14:13:03.000000000 Z
+- name: enzyme-adapter-react-16
+  description: JavaScript Testing utilities for React
+  package_url: https://www.npmjs.com/enzyme-adapter-react-16
+  version: 1.15.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15959/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 18.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-30 23:26:49.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-30 23:26:49.000000000 Z
+- name: eslint-import-resolver-typescript
+  description: TypeScript .ts .tsx module resolver for `eslint-plugin-import`
+  package_url: https://www.npmjs.com/eslint-import-resolver-typescript
+  version: 2.5.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18380/default_d0ba753d47207ad8f04b02befcab81c50f38718f.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Elizabeth Thompson
+  last_updated_on: 2024-01-31 23:44:25.000000000 Z
+- name: eslint-plugin-cypress
+  description: An ESLint plugin for projects using Cypress
+  package_url: https://www.npmjs.com/eslint-plugin-cypress
+  version: 2.12.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18548/default_0998c3a5bd64540d478b8f189bd9d22c3c17b6a0.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/cypress-base/package-lock.json
+  detection_source: superset-frontend/cypress-base/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2023-08-24 14:44:35.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.24.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Elizabeth Thompson
+  last_updated_on: 2024-01-31 23:44:25.000000000 Z
+- name: eslint-plugin-jest
+  description: Eslint rules for Jest
+  package_url: https://www.npmjs.com/eslint-plugin-jest
+  version: 24.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15996/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Elizabeth Thompson
+  last_updated_on: 2024-01-31 23:44:25.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Elizabeth Thompson
+  last_updated_on: 2024-01-31 23:44:25.000000000 Z
+- name: eslint-plugin-lodash
+  description: Lodash specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-lodash
+  version: 7.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17604/default_98adc81594c50d81f495d8c0ddd357e31c4f0a3e.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Elizabeth Thompson
+  last_updated_on: 2024-01-31 23:44:25.000000000 Z
+- name: eslint-plugin-no-only-tests
+  description: ESLint rule for .only blocks in mocha tests
+  package_url: https://www.npmjs.com/eslint-plugin-no-only-tests
+  version: 2.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18756/default_18c539134b0dda955cff96464ccdbe4e0790a62a.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Elizabeth Thompson
+  last_updated_on: 2024-01-31 23:44:25.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Elizabeth Thompson
+  last_updated_on: 2024-01-31 23:44:25.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.22.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: exports-loader
+  description: Exports loader module for webpack
+  package_url: https://www.npmjs.com/exports-loader
+  version: 0.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16572/default_aaf5839b9bd35cf60ebf8e1b59d64d8e3b398aaa.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-26 17:36:04.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-websocket/utils/client-ws-app/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-16 20:58:34.000000000 Z
+- name: fast-glob
+  description: It's a very fast and efficient glob library for Node.js
+  package_url: https://www.npmjs.com/fast-glob
+  version: 3.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17033/default_50357c490b205882dcfb608fd3c74b446186c21e.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: Yongjie Zhao
+  last_updated_on: 2022-07-20 10:30:30.000000000 Z
+- name: fetch-mock
+  description: Mock http requests made using fetch
+  package_url: https://www.npmjs.com/fetch-mock
+  version: 7.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16762/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-01 15:46:03.000000000 Z
+- name: file-loader
+  description: A file loader module for webpack
+  package_url: https://www.npmjs.com/file-loader
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15834/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Maxime Beauchemin
+  last_updated_on: 2022-06-06 15:01:21.000000000 Z
+- name: fork-ts-checker-webpack-plugin
+  description: Runs typescript type checker and linter on separate process
+  package_url: https://www.npmjs.com/fork-ts-checker-webpack-plugin
+  version: 6.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16622/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: Elizabeth Thompson
+  last_updated_on: 2024-01-31 23:44:25.000000000 Z
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-26 17:36:04.000000000 Z
+- name: fuse.js
+  description: Lightweight fuzzy-search
+  package_url: https://www.npmjs.com/fuse.js
+  version: 3.6.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17405/default_c11ea7d401c11f11d89301d0302509ab7d72e5ac.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-23 15:19:46.000000000 Z
+- name: gh-pages
+  description: Publish to a gh-pages branch on GitHub
+  package_url: https://www.npmjs.com/gh-pages
+  version: 3.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15967/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/packages/superset-ui-demo/package.json
+  last_updated_by: Michael S. Molina
+  last_updated_on: 2023-06-08 13:13:39.000000000 Z
+- name: googleapis
+  description: Google APIs Client Library for Node.js
+  package_url: https://www.npmjs.com/googleapis
+  version: 130.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16842/default_d7dbced92f420888f118516ac7144afed4acf9ca.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-26 17:36:04.000000000 Z
+- name: handlebars
+  description: Handlebars provides the power necessary to let you build semantic templates
+    effectively with no frustration
+  package_url: https://www.npmjs.com/handlebars
+  version: 4.7.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16013/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/plugins/plugin-chart-handlebars/package.json
+  last_updated_by: Nicolas Charpentier
+  last_updated_on: 2023-04-25 15:18:27.000000000 Z
+- name: history
+  description: Manage session history with JavaScript
+  package_url: https://www.npmjs.com/history
+  version: 4.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16209/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: Nicolas Charpentier
+  last_updated_on: 2023-04-25 15:18:27.000000000 Z
+- name: html-webpack-plugin
+  description: Simplifies creation of HTML files to serve your webpack bundles
+  package_url: https://www.npmjs.com/html-webpack-plugin
+  version: 5.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15841/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: Elizabeth Thompson
+  last_updated_on: 2024-01-31 23:44:25.000000000 Z
+- name: http-errors
+  description: Create HTTP error objects
+  package_url: https://www.npmjs.com/http-errors
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16925/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-websocket/utils/client-ws-app/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-09-27 17:22:21.000000000 Z
+- name: ignore-styles
+  description: Ignore imported style files when running in Node
+  package_url: https://www.npmjs.com/ignore-styles
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17252/default_4cd9fed0bfdeacace38f5fa25eb085538f01330b.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-26 17:36:04.000000000 Z
+- name: immer
+  description: Create your next immutable state by mutating the current one
+  package_url: https://www.npmjs.com/immer
+  version: 9.0.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16937/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-29 16:51:08.000000000 Z
+- name: imports-loader
+  description: Imports loader module for webpack
+  package_url: https://www.npmjs.com/imports-loader
+  version: 3.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16422/default_cdeaf2fdc112ae29eada7343314e0eee59c7eb0d.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-26 17:36:04.000000000 Z
+- name: ioredis
+  description: A robust
+  package_url: https://www.npmjs.com/ioredis
+  version: 4.28.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16522/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-websocket/package-lock.json
+  detection_source: superset-websocket/package.json
+  last_updated_by: Ville Brofeldt
+  last_updated_on: 2021-11-03 10:17:36.000000000 Z
+- name: jest-environment-enzyme
+  description: Runtime Environment for enzyme tests in jest
+  package_url: https://www.npmjs.com/jest-environment-enzyme
+  version: 7.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18394/default_dc6769b9772560ba4cb2cd0455560c2922e23c92.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-01 05:01:36.000000000 Z
+- name: jest-enzyme
+  description: Testing Matchers for Enzyme
+  package_url: https://www.npmjs.com/jest-enzyme
+  version: 7.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16718/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-30 00:48:13.000000000 Z
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 9.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-websocket/package-lock.json
+  detection_source: superset-websocket/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-13 17:42:46.000000000 Z
+- name: jwt-decode
+  description: Decode JWT tokens, mostly useful for browser applications
+  package_url: https://www.npmjs.com/jwt-decode
+  version: 3.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17395/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-embedded-sdk/package-lock.json
+  detection_source: superset-embedded-sdk/package.json
+  last_updated_by: kevin
+  last_updated_on: 2022-10-17 08:14:28.000000000 Z
+- name: less-loader
+  description: A Less loader for webpack. Compiles Less to CSS
+  package_url: https://www.npmjs.com/less-loader
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15989/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-15 23:22:07.000000000 Z
+- name: mapbox-gl
+  description: A WebGL interactive maps library
+  package_url: https://www.npmjs.com/mapbox-gl
+  version: 2.10.0
+  license: ICU
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18073/image.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Lily Kuang
+  last_updated_on: 2023-01-23 22:36:34.000000000 Z
+- name: memoize-one
+  description: A memoization library which only remembers the latest invocation
+  package_url: https://www.npmjs.com/memoize-one
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17541/default_e665c133253b5cd434c1991167ebd25dc68f1c17.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: Lily Kuang
+  last_updated_on: 2023-01-18 01:25:34.000000000 Z
+- name: mini-css-extract-plugin
+  description: Extracts CSS into separate files
+  package_url: https://www.npmjs.com/mini-css-extract-plugin
+  version: 2.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15992/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: mock-socket
+  description: Javascript mocking library for websockets and socket.io
+  package_url: https://www.npmjs.com/mock-socket
+  version: 9.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18702/default_803d9095ae52cd39a90bd905df9c2e4583f75904.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-01 15:46:03.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-01 05:01:36.000000000 Z
+- name: moment-timezone
+  description: Parse and display moments in any timezone
+  package_url: https://www.npmjs.com/moment-timezone
+  version: 0.5.44
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16298/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-01 05:01:36.000000000 Z
+- name: morgan
+  description: HTTP request logger middleware for node.js
+  package_url: https://www.npmjs.com/morgan
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-websocket/utils/client-ws-app/package.json
+  last_updated_by: Ville Brofeldt
+  last_updated_on: 2021-11-03 10:17:36.000000000 Z
+- name: mousetrap
+  description: Simple library for handling keyboard shortcuts
+  package_url: https://www.npmjs.com/mousetrap
+  version: 1.6.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18018/image.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-29 22:17:20.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: Daniel Vaz Gaspar
+  last_updated_on: 2023-11-27 09:23:52.000000000 Z
+- name: polished
+  description: A lightweight toolset for writing styles in Javascript
+  package_url: https://www.npmjs.com/polished
+  version: 4.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16665/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2021-12-01 21:15:25.000000000 Z
+- name: pretty-ms
+  description: 'Convert milliseconds to a human readable string: `1337000000` → `15d
+    11h 23m 20s`'
+  package_url: https://www.npmjs.com/pretty-ms
+  version: 7.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17620/default_2b5fe3dc5bfc4e83a84162459ff612ac6febd61a.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/cypress-base/package-lock.json
+  detection_source: superset-frontend/packages/superset-ui-core/package.json
+  last_updated_by: Jesse Yang
+  last_updated_on: 2020-09-03 19:02:23.000000000 Z
+- name: process
+  description: Process information for node.js and browsers
+  package_url: https://www.npmjs.com/process
+  version: 0.11.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17866/default_99a4718ac3f2beccb28962b727b0a38010c9b496.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Kamil Gabryjelski
+  last_updated_on: 2021-09-22 11:24:54.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-30 21:39:34.000000000 Z
+- name: query-string
+  description: Parse and stringify URL query strings
+  package_url: https://www.npmjs.com/query-string
+  version: 6.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16244/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-11-23 11:47:37.000000000 Z
+- name: react-ace
+  description: A react component for Ace Editor
+  package_url: https://www.npmjs.com/react-ace
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18432/default_090197a87d306c919c7dbc09bfedd02e3b061236.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: react-color
+  description: A Collection of Color Pickers from Sketch
+  package_url: https://www.npmjs.com/react-color
+  version: 2.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16955/default_665377899254fe85c1cf6bf7f15e24c4180a76ac.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: react-dnd
+  description: Drag and Drop for React
+  package_url: https://www.npmjs.com/react-dnd
+  version: 11.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16710/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: react-dnd-html5-backend
+  description: HTML5 backend for React DnD
+  package_url: https://www.npmjs.com/react-dnd-html5-backend
+  version: 11.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16799/default_dc62f5e9b636403c2d19676924f5b6b881abcac8.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-28 21:42:35.000000000 Z
+- name: react-draggable
+  description: React draggable component
+  package_url: https://www.npmjs.com/react-draggable
+  version: 4.4.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17422/default_90854c53afd40e0b32cb5e4d62d6bbc2214e0f62.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: react-error-boundary
+  description: Simple reusable React error boundary component
+  package_url: https://www.npmjs.com/react-error-boundary
+  version: 1.2.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/cypress-base/package-lock.json
+  detection_source: superset-frontend/packages/superset-ui-core/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-29 22:19:19.000000000 Z
+- name: react-loadable
+  description: A higher order component for loading components with promises
+  package_url: https://www.npmjs.com/react-loadable
+  version: 5.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17269/default_9b05b1c3b13fc328bf76b8d3fea01ff4688c0c1d.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: react-markdown
+  description: Renders Markdown as React components
+  package_url: https://www.npmjs.com/react-markdown
+  version: 8.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/cypress-base/package-lock.json
+  detection_source: superset-frontend/packages/superset-ui-core/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-29 22:19:19.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: react-resizable
+  description: A component that is resizable with handles
+  package_url: https://www.npmjs.com/react-resizable
+  version: 3.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18447/default_ce264c1dd64cc60a7887273861f96d765d5ebde0.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: react-sortable-hoc
+  description: Set of higher-order components to turn any list into a sortable
+  package_url: https://www.npmjs.com/react-sortable-hoc
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18551/default_9ee31ff0b8de914bd17073075dcd2fcbf11980a7.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: react-syntax-highlighter
+  description: Syntax highlighting component for react with prismjs or highlightjs
+    ast using inline styles
+  package_url: https://www.npmjs.com/react-syntax-highlighter
+  version: 15.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17323/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: react-table
+  description: Hooks for building lightweight
+  package_url: https://www.npmjs.com/react-table
+  version: 7.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17860/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: react-test-renderer
+  description: React package for snapshot testing
+  package_url: https://www.npmjs.com/react-test-renderer
+  version: 16.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15929/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: react-transition-group
+  description: A react component toolset for managing animations
+  package_url: https://www.npmjs.com/react-transition-group
+  version: 4.4.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16380/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: redux-mock-store
+  description: A mock store for testing your redux async action creators and middleware
+  package_url: https://www.npmjs.com/redux-mock-store
+  version: 1.5.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16721/default_848dc5bc612658cea8d631cff0259d9588c28fea.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-01 15:46:03.000000000 Z
+- name: regenerator-runtime
+  description: Runtime for Regenerator-compiled generator and async functions
+  package_url: https://www.npmjs.com/regenerator-runtime
+  version: 0.13.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16148/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-30 23:26:49.000000000 Z
+- name: remark-gfm
+  description: Remark plugin to support GFM
+  package_url: https://www.npmjs.com/remark-gfm
+  version: 3.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/packages/superset-ui-core/package.json
+  last_updated_by: JUST.in DO IT
+  last_updated_on: 2023-03-28 16:32:32.000000000 Z
+- name: resize-observer-polyfill
+  description: A polyfill for the Resize Observer API
+  package_url: https://www.npmjs.com/resize-observer-polyfill
+  version: 1.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17168/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/packages/superset-ui-core/package.json
+  last_updated_by: Michael S. Molina
+  last_updated_on: 2022-11-04 14:34:02.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: Yongjie Zhao
+  last_updated_on: 2021-11-17 07:31:36.000000000 Z
+- name: seedrandom
+  description: Seeded random number generator for Javascript
+  package_url: https://www.npmjs.com/seedrandom
+  version: 3.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17815/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/cypress-base/package-lock.json
+  detection_source: superset-frontend/packages/superset-ui-core/package.json
+  last_updated_by: Jesse Yang
+  last_updated_on: 2020-12-14 19:50:20.000000000 Z
+- name: source-map
+  description: Generates and consumes source maps
+  package_url: https://www.npmjs.com/source-map
+  version: 0.5.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16339/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-30 23:26:49.000000000 Z
+- name: source-map-support
+  description: Fixes stack traces for files with source maps
+  package_url: https://www.npmjs.com/source-map-support
+  version: 0.5.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-30 23:26:49.000000000 Z
+- name: storybook-addon-jsx
+  description: Display the JSX of the story
+  package_url: https://www.npmjs.com/storybook-addon-jsx
+  version: 7.3.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18330/default_76b2f4c5e0ef6cb710e34324b894ff76f31a9574.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-30 23:26:49.000000000 Z
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-26 17:36:04.000000000 Z
+- name: thread-loader
+  description: Runs the following loaders in a worker pool
+  package_url: https://www.npmjs.com/thread-loader
+  version: 3.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17547/default_809f38c280e61a39329e5ca5d8a16d8966425895.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-26 17:36:04.000000000 Z
+- name: tinycolor2
+  description: Fast Color Parsing and Manipulation
+  package_url: https://www.npmjs.com/tinycolor2
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16845/default_768abdabb94806c932ace6262b6bbc8241907245.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/cypress-base/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Hugh A. Miles II
+  last_updated_on: 2023-06-27 19:12:03.000000000 Z
+- name: transform-loader
+  description: Transform loader for webpack
+  package_url: https://www.npmjs.com/transform-loader
+  version: 0.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18438/default_ac28e8c274f23e158834aeec6a639856d0dbf777.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-26 17:36:04.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 27.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-websocket/package-lock.json
+  detection_source: superset-websocket/package.json
+  last_updated_by: Ville Brofeldt
+  last_updated_on: 2021-11-03 10:17:36.000000000 Z
+- name: ts-loader
+  description: TypeScript loader for webpack
+  package_url: https://www.npmjs.com/ts-loader
+  version: 9.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15938/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Evan Rusackas
+  last_updated_on: 2024-01-26 17:36:04.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-websocket/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-01 19:11:48.000000000 Z
+- name: urijs
+  description: URI.js is a Javascript library for working with URLs
+  package_url: https://www.npmjs.com/urijs
+  version: 1.19.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17237/default_4cd9fed0bfdeacace38f5fa25eb085538f01330b.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Ville Brofeldt
+  last_updated_on: 2022-03-01 16:38:29.000000000 Z
+- name: url-loader
+  description: A loader for webpack which transforms files into base64 URIs
+  package_url: https://www.npmjs.com/url-loader
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15858/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Maxime Beauchemin
+  last_updated_on: 2022-06-06 15:01:21.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 8.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-websocket/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-29 23:06:43.000000000 Z
+- name: webpack-bundle-analyzer
+  description: Webpack plugin and CLI utility that represents bundle content as convenient
+    interactive zoomable treemap
+  package_url: https://www.npmjs.com/webpack-bundle-analyzer
+  version: 4.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15991/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-30 18:59:21.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 4.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-embedded-sdk/package-lock.json
+  detection_source: superset-embedded-sdk/package.json
+  last_updated_by: David Aaron Suddjian
+  last_updated_on: 2022-02-12 04:29:23.000000000 Z
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 4.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-02 19:31:06.000000000 Z
+- name: webpack-manifest-plugin
+  description: Webpack plugin for generating asset manifests
+  package_url: https://www.npmjs.com/webpack-manifest-plugin
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16158/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: Elizabeth Thompson
+  last_updated_on: 2024-01-31 23:44:25.000000000 Z
+- name: webpack-sources
+  description: Source code handling classes for webpack
+  package_url: https://www.npmjs.com/webpack-sources
+  version: 3.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16921/default_24095c83b7b4f8d3f786358b9f13027acb571deb.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/docs/yarn.lock
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-02-01 15:46:03.000000000 Z
+- name: whatwg-fetch
+  description: A window.fetch polyfill
+  package_url: https://www.npmjs.com/whatwg-fetch
+  version: 3.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16094/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/cypress-base/package-lock.json
+  detection_source: superset-frontend/packages/superset-ui-core/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-23 21:12:20.000000000 Z
+- name: winston
+  description: A logger for just about everything
+  package_url: https://www.npmjs.com/winston
+  version: 3.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16003/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-websocket/package-lock.json
+  detection_source: superset-websocket/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-10 16:54:41.000000000 Z
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 16.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-embedded-sdk/package-lock.json
+  detection_source: superset-frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-30 00:18:14.000000000 Z
+- name: yeoman-assert
+  description: Assert utility from yeoman
+  package_url: https://www.npmjs.com/yeoman-assert
+  version: 3.1.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16243/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/packages/generator-superset/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-14 23:53:02.000000000 Z
+- name: yeoman-generator
+  description: Rails-inspired generator system that provides scaffolding for your
+    apps
+  package_url: https://www.npmjs.com/yeoman-generator
+  version: 5.7.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15971/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/packages/generator-superset/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-14 23:53:02.000000000 Z
+- name: yeoman-test
+  description: Test utilities for Yeoman generators
+  package_url: https://www.npmjs.com/yeoman-test
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16229/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/packages/generator-superset/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-14 23:53:02.000000000 Z
+- name: yosay
+  description: Tell Yeoman what to say
+  package_url: https://www.npmjs.com/yosay
+  version: 2.0.2
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16124/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/superset-frontend/package-lock.json
+  detection_source: superset-frontend/packages/generator-superset/package.json
+  last_updated_by: Stephen Liu
+  last_updated_on: 2022-09-06 09:55:55.000000000 Z
+- name: Flask-AppBuilder
+  description: Simple and rapid application development framework, built on top of
+    Flask
+  package_url: https://pypi.org/project/Flask-AppBuilder
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: Daniel Vaz Gaspar
+  last_updated_on: 2023-11-20 19:02:30.000000000 Z
+- name: Flask-Caching
+  description: Adds caching support to your Flask application
+  package_url: https://pypi.org/project/Flask-Caching
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20332/default_1a060bd30ca72545354e1c3d92e9b224f6c0e5e2.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: Daniel Vaz Gaspar
+  last_updated_on: 2023-11-20 19:02:30.000000000 Z
+- name: Flask-Compress
+  description: Compress responses in your Flask app with gzip
+  package_url: https://pypi.org/project/Flask-Compress
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: Daniel Vaz Gaspar
+  last_updated_on: 2023-11-20 19:02:30.000000000 Z
+- name: Flask-Login
+  description: User session management for Flask
+  package_url: https://pypi.org/project/Flask-Login
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20091/default_5d939a1a27846185eb6de438be4bf77b84b4ee87.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: Daniel Vaz Gaspar
+  last_updated_on: 2023-11-20 19:02:30.000000000 Z
+- name: Flask-Migrate
+  description: SQLAlchemy database migrations for Flask applications using Alembic
+  package_url: https://pypi.org/project/Flask-Migrate
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20329/default_cf6b540611cb9b9b5d016a661f54f50ad3400f1a.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: Daniel Vaz Gaspar
+  last_updated_on: 2023-11-20 19:02:30.000000000 Z
+- name: Flask-WTF
+  description: Simple integration of Flask and WTForms
+  package_url: https://pypi.org/project/Flask-WTF
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20060/default_eed7014d799b4e750aea7c37ab970b4b62c0cf42.png
+  detection_source_url: https://github.com/LaggAt/superset/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: Daniel Vaz Gaspar
+  last_updated_on: 2023-11-20 19:02:30.000000000 Z
